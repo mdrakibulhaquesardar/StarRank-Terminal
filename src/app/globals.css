@@ -1,0 +1,67 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 29% 8%; /* Dark Gray #0D1117 */
+    --foreground: 0 0% 90%; /* Lighter gray for better readability than pure white */
+
+    --card: 210 29% 12%; /* Slightly Lighter Dark Gray #161B22 */
+    --card-foreground: 0 0% 90%;
+
+    --popover: 210 29% 10%; 
+    --popover-foreground: 0 0% 90%;
+
+    --primary: 158 100% 50%; /* Neon Green #00FFAB */
+    --primary-foreground: 210 29% 8%; /* Dark Gray for text on primary */
+
+    --secondary: 210 29% 15%; /* Darker shade for secondary elements */
+    --secondary-foreground: 0 0% 80%; 
+
+    --muted: 210 29% 20%; 
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 80 100% 50%; /* Electric Lime #BFFF00 */
+    --accent-foreground: 210 29% 8%; /* Dark Gray for text on accent */
+
+    --destructive: 0 72% 51%; /* Default, can be adjusted if needed */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 158 100% 35%; /* Slightly darker/muted primary for borders */
+    --input: 210 29% 15%; /* #21262D for input backgrounds */
+    --ring: 158 100% 55%; /* Primary for focus rings, slightly brighter */
+
+    --radius: 0.5rem; /* Default radius */
+
+    /* Sidebar specific colors, can be adjusted if sidebar is used */
+    --sidebar-background: 210 29% 10%;
+    --sidebar-foreground: 0 0% 80%;
+    --sidebar-primary: 158 100% 50%;
+    --sidebar-primary-foreground: 210 29% 8%;
+    --sidebar-accent: 80 100% 50%;
+    --sidebar-accent-foreground: 210 29% 8%;
+    --sidebar-border: 158 100% 30%;
+    --sidebar-ring: 158 100% 55%;
+  }
+
+  /*
+    The default scaffold had a .dark class.
+    We are making the dark theme the default by setting the :root variables directly.
+    So, the .dark specific overrides are not strictly necessary unless you want to support
+    a light theme toggle later. For a terminal app, dark is usually the only theme.
+  */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Fira Code is applied via tailwind.config.ts and layout.tsx */
+  }
+}
+
+    
