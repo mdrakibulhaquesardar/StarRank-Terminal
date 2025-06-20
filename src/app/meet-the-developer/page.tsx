@@ -10,12 +10,13 @@ import { Button } from '@/components/ui/button';
 
 export default function MeetTheDeveloperPage() {
   // Replace with your actual details
-  const developerName = "Your Name / AI Prototyper";
-  const developerBio = "I am an AI Coding Partner from Firebase Studio, helping you build amazing applications like StarRank Terminal. I specialize in Next.js, React, Tailwind, ShadCN, and Genkit for AI features.";
-  const developerAvatar = "https://placehold.co/150x150.png"; // Replace with your avatar URL
-  const githubProfileUrl = "https://github.com/your-username"; // Replace
-  const linkedinProfileUrl = "https://linkedin.com/in/your-profile"; // Replace
-  const portfolioUrl = "https://your-portfolio.com"; // Replace
+  const developerName = "Md Rakibul Haque Sardar";
+  const developerBio = "Hey, I’m Rakibul — a Flutter developer who’s also exploring the web world with Next.js. This project is my playground for trying out modern web tech while bringing the same passion for clean, performant apps I apply in Flutter and learning new tools that push my skills forward. This Next.js app is a step into the web space .Always open to collab and sharing ideas — hit me up anytime!";
+
+  const developerAvatar = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSJSzBuPvQ48SHs7l2el8W0Jmi36x2_tDW2w&s"; // Replace with your avatar URL
+  const githubProfileUrl = "https://github.com/mdrakibulhaquesardar"; // Replace
+  const linkedinProfileUrl = "www.linkedin.com/in/rakibullhaque"; // Replace
+  const portfolioUrl = "https://rakibulhaque.netlify.app/"; // Replace
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
