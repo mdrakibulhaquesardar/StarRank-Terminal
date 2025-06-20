@@ -98,7 +98,7 @@ You can follow these instructions to get a copy of the project up and running on
 
 1.  **Start the Next.js development server:**
     ```bash
-    npm run start
+    npm run dev
     ```
     This will typically start the application on `http://localhost:9002`.
 
