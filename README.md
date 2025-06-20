@@ -1,7 +1,20 @@
-
+![Made by Rakibul](https://img.shields.io/badge/Made%20by-Rakibul-blueviolet)
 # StarRank Terminal
 
 StarRank Terminal is a Next.js application designed to discover, rank, and provide AI-powered insights on GitHub developers. It features a dynamic leaderboard, detailed developer profiles, and an XP-based ranking system.
+
+
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/29f2731d-423a-4771-b95e-f8632861c61c/deploy-status)](https://app.netlify.com/projects/starrank/deploys)
+
+
+
+
 
 
 
@@ -16,6 +29,11 @@ StarRank Terminal is a Next.js application designed to discover, rank, and provi
 
 
 
+
+
+
+![Code Quality](https://img.shields.io/badge/Clean_Code-Yes-brightgreen?style=for-the-badge&logo=eslint)
+![Open to Work](https://img.shields.io/badge/Open%20to-Collaboration-orange?style=for-the-badge&logo=handshake)
 
 
 
@@ -180,6 +198,13 @@ Please ensure your code adheres to the existing style and that any new features 
 
 This project is licensed under the MIT License - see the `LICENSE` file for details (if one is added).
 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
 ---
 
 Happy Coding!
+
+![GitHub stars](https://img.shields.io/github/stars/mdrakibulhaquesardar/StarRank-Terminal?style=social)
+![GitHub forks](https://img.shields.io/github/forks/mdrakibulhaquesardar/StarRank-Terminal?style=social)
